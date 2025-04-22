@@ -1,0 +1,41 @@
+{
+    "name": "youtube-downloader-site",
+    "version": "1.0.0",
+    "description": "A simple YouTube video downloader using Express and yt-dlp",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "SELEONE",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.2",
+        "ip": "^2.0.1"
+    },
+    "keywords": []
+}
+{
+    "title": "Video Title",
+    "thumbnail": "url",
+    "duration": "10:30",
+    "videoFormats": [
+      {
+        "qualityLabel": "2160p (4K)",
+        "resolution": "3840x2160",
+        "container": "mp4",
+        "size": "2800.00 MB",
+        "isRecommended": true
+      }
+      // ... other video formats
+    ],
+    "audioFormats": [
+      {
+        "qualityLabel": "Audio",
+        "container": "mp3",
+        "size": "9.57 MB",
+        "isRecommended": true
+      }
+      // ... other audio formats
+    ]
+  }
