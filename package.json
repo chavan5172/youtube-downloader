@@ -10,8 +10,4 @@
     "keywords": [],
     "author": "SELEONE",
     "license": "ISC",
-    "dependencies": {
-        "express": "^4.17.1",
-        "yt-dlp": "^2021.12.01"
-    }
 }
